@@ -175,7 +175,7 @@ def Projects():
             else:
                 st.error("Failed to load Lottie animation.")
         with text_col:
-            st.write("### EDA Projet on Suicide Dataset")
+            st.write("### Google Gemini App Clone")
             st.write("""
                     - Engineered a fully functional Google Gemini clone, achieving 100% feature parity and functionality replication .
                     - Crafted a pixel-perfect UI, meticulously adhering to Gemini's established design patterns and user experience guidelines .
