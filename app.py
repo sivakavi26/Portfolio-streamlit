@@ -43,10 +43,9 @@ def Home():
 
 # Projects Function --------------------------------------------------------------------------------------------------------------
 def Projects():
-    
+    st.title('My Projects')
     # Project 1 Container
     with st.container():
-        st.header("My Projects")
         img_col, text_col = st.columns((1, 2))
         with img_col:
             lottie_url = "https://lottie.host/eee3dbab-2db1-47ff-8517-bbe523b2e542/DJxtNRMpWw.json"
@@ -194,7 +193,41 @@ def Projects():
                 
                 with st.expander("### Project Link", expanded = False):
                     st.write("[View The Project on This Repo](https://github.com/RAJTripathi3030/Gemini-Clone)")
-            
+    
+    # Project 5 Container
+    with st.container():
+        st.write("---")
+        st.write("##")
+        img_col, text_col = st.columns((1, 2))
+        with img_col:
+            lottie_url = "https://lottie.host/f2e469ad-fe3c-471c-a817-b1768ab0312f/Yh7qlSV0Uq.json"
+            lottie_animation = load_lottieurl(lottie_url)
+            if lottie_animation:
+                st_lottie(lottie_animation, speed=1, height=300, key="project5")
+            else:
+                st.error("Failed to load Lottie animation.")
+                
+        with text_col:
+            st.write("### Movie Recommender System")
+            st.write("""
+                    - Developed an advanced recommender system, leveraging collaborative filtering and content-based filtering techniques.
+                    - Designed a user-friendly interface that allows seamless product discovery, significantly enhancing user engagement and satisfaction.
+                    - Implemented a robust algorithm that analyzes user behavior and preferences, providing personalized product recommendations with high accuracy.
+                    """)
+            if st.button("Know More 😄"):
+                with st.expander("### Technologies Used", expanded=False):
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        st.write("- Python")
+                        st.write("- Pandas")
+                        st.write("- NumPy")
+                    with col2:
+                        st.write("- Scikit-Learn")
+                        st.write("- Streamlit")
+                        st.write("- NLTK")
+                
+                with st.expander("### Project Link", expanded = False):
+                    st.write("[View the live demo here](https://recommender-system-app.streamlit.app/)")
 # Achievements Function --------------------------------------------------------------------------------------------------------------
 def Achievements():
     with st.container():
