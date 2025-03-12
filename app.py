@@ -1,6 +1,4 @@
 import streamlit as st
-import requests 
-from streamlit_lottie import st_lottie
 
 
 intro_page = st.Page("Intro.py", title = "Home", icon = ":material/home:")
@@ -14,4 +12,4 @@ pg = st.navigation(
         "Navigate Here" : [intro_page, skills_page, project_page, ach_page, conn_page]
     })
 
-pg.run()
+pg.run() 
