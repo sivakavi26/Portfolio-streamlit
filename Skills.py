@@ -77,53 +77,51 @@ def get_skill_level(score):
 detailed_skills = {
     "🧱 IaC & Automation": {
         "Terraform": 90,
-        "CloudFormation": 85,
-        "Ansible": 88,
+        "CloudFormation": 70,
+        "Ansible": 90,
         "Bash": 80,
         "Python (Automation)": 80,
-        "Groovy": 75
+        "Groovy": 80
     },
     "⚙️ CI/CD & Version Control": {
         "Jenkins": 90,
         "GitHub Actions": 85,
-        "Git": 88,
-        "SonarQube": 80,
-        "Nexus": 75
+        "Git": 85,
     },
     "📊 Monitoring & Logging": {
-        "Datadog": 88,
-        "Prometheus": 85,
-        "Grafana": 85,
-        "ElK Stack(Elasticsearch, Logstash & Kibana)": 82
+        "Datadog": 90,
+        "Prometheus": 80,
+        "Grafana": 80,
+        "ElK Stack(Elasticsearch, Logstash & Kibana)": 80
     },
     "🔗 Messaging & Databases": {
-        "Kafka": 78,
-        "RabbitMQ": 75,
-        "MongoDB": 80,
-        "Redis": 78,
-        "OpenSearch": 72,
-        "HAProxy": 70
+        "RabbitMQ": 60,
+        "MongoDB": 60,
+        "Redis": 75,
+        "OpenSearch": 75,
+        "HAProxy": 80,
+        "Kafka": 50,
     },
     "📦 Containers & Orchestration": {
-        "Docker": 90,
-        "Kubernetes (EKS)": 88,
-        "Helm": 85,
-        "ArgoCD": 82
+        "Docker": 85,
+        "Kubernetes (EKS)": 80,
+        "Helm": 80,
+        "ArgoCD": 70
     }
 }
 
 grouped_skills = {
     "☁️ Cloud & Infrastructure": {
         "AWS (EC2, S3, EKS, Lambda, Route53, VPC, WAF, ECR)": 90,
-        "Cloud Networking (VPC, Load Balancers, NAT Gateway)": 85
+        "Cloud Networking (VPC, Load Balancers, NAT Gateway)": 75
     },
     "🔐 Security & Compliance": {
-        "IAM, AWS Macie, RBAC": 80,
-        "Teleport SSO Integration": 75
+        "IAM, AWS Macie, RBAC": 85,
+        "Teleport SSO": 90
     },
     "🐧 Linux & OS": {
-        "Linux Admin / Scripting": 90,
-        "Kernel tuning / Security hardening": 80
+        "Linux Admin": 80,
+        "Kernel tuning / Security hardening": 70
     }
 }
 

@@ -49,10 +49,9 @@ profile_html = """
             <h1>👋 Hi, I'm <span style="color:#38bdf8;">Sivakavi Shanmugam</span></h1>
             <h3>DevOps Engineer | AWS Certified Solutions Architect</h3>
             <p>
-                I engineer resilient cloud systems, automate pipelines, and lead DevOps initiatives.<br><br>
-                With <b>4 years of IT experience</b> — including <b>2 years in DevOps/SRE</b> — I bridge the gap between development and operations.<br>
+                With <b>4 years of IT experience</b> — including <b>2 years in DevOps/SRE</b> — I bridge the gap between development and operations.
                 I'm passionate about <b>automation, infrastructure optimization</b>, and building scalable, secure cloud environments.
-                I engineer resilient cloud systems, automate software delivery pipelines, and lead DevOps initiatives end to end.
+                "I engineer resilient cloud systems, automate software delivery pipelines, and lead DevOps initiatives end to end".
         </div>
     </div>
 """
@@ -83,14 +82,15 @@ st.markdown("""
     ---
     
     ### 📂 In this portfolio:
-    - Explore my **DevOps projects**
-    - Dive into my **automation scripts**
-    - Learn from my **cloud architecture designs**
-    - Reach out for **collaboration or consulting**
+    - ✅ Explore my skills in cloud, automation, and DevOps tools
+    - 🏆 Discover professional achievements from real-world infrastructure projects
+    - 🛠️ Check out independent projects
+    - 📜 View my industry-recognized certifications
+    - 💡 Explore my areas of interest in DevOps, SRE, and cloud architecture
     
     ---
     
-    If you're looking for someone who thrives at the intersection of **cloud, code, and security**, let's connect and create something impactful together!
+    🔧 If you’re looking for someone who thrives at the intersection of cloud infrastructure, automation, and reliability engineering, let’s connect and build scalable, secure, and resilient systems together.
     
     ---
     """)

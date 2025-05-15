@@ -73,4 +73,19 @@ with st.container():
                 
                 with st.expander("### 🔗Project Link", expanded = False):
                     st.write("[My Portfolio Repo]()")
-    
+
+st.title('Certifications')
+# Enter Desctipion
+st.write("### AWS Certified Solutions Architect – Associate")
+certificate_url1 = "https://www.credly.com/badges/b3e5e035-8f90-4789-a794-72a53d848254/public_url"
+st.markdown(f"[🔗 View Certificate]({certificate_url1})", unsafe_allow_html=True)
+certificate_url2 = "https://www.udemy.com/certificate/UC-362cdac7-7427-4787-9033-89a695d3309a/"
+st.write("### DevOps Beginners to Advanced | Decoding DevOps with Projects - Udemy")
+st.markdown(f"[🔗 View Certificate]({certificate_url2})", unsafe_allow_html=True)
+certificate_url3 = "https://www.udemy.com/certificate/UC-a4c1cd73-1950-40d8-93f5-b999f5ac6bf7/"
+st.write("### Python and Django Full Stack Web Developer Bootcamp - Udemy")
+st.markdown(f"[🔗 View Certificate]({certificate_url3})",unsafe_allow_html=True)
+
+
+
+

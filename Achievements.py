@@ -9,7 +9,7 @@ def load_lottieurl(url):
     return r.json()
 
 # Page Configuration
-st.set_page_config(page_title="My Projects & Achievements", page_icon="🏆", layout="wide")
+st.set_page_config(page_title="My Professional Achievements", page_icon="🏆", layout="wide")
 
 # Load Lottie Animation
 lottie_url = "https://lottie.host/a7990eb1-5152-4cd1-a7fd-e0c592683b97/KOvlwaJ4uL.json"
@@ -57,7 +57,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown("<h1 style='text-align: center; font-size: 48px;'>🏆 My Projects & Achievements</h1><hr>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-size: 48px;'>🏆 My Professional Achievements</h1><hr>", unsafe_allow_html=True)
 
 # Layout
 col1, col2 = st.columns([2, 1])
@@ -129,18 +129,12 @@ st.markdown("""
 
 topics = [
     "☁️ Cloud Architecture (AWS)",
-    "🔐 Infrastructure Security",
     "📦 Kubernetes & Containerization",
     "📈 Observability & Monitoring (Grafana, Prometheus, Datadog)",
     "🚀 CI/CD Pipelines (Jenkins, GitHub Actions)",
-    "🛡️ IAM, SSO & Compliance (Teleport, RBAC, Macie)",
     "🧰 Infrastructure as Code (Terraform, Ansible)",
     "🔄 Disaster Recovery & High Availability",
     "📉 Cost Optimization in Cloud",
-    "🧪 Automation Testing in DevOps",
-    "🔄 GitOps with ArgoCD",
-    "🧑‍💻 Site Reliability Engineering (SRE)",
-    "📊 Incident Response & Alerting",
     "🔧 Linux Internals & Troubleshooting"
 ]
 
